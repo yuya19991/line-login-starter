@@ -10,8 +10,8 @@ logging:
         com.linecorp.sample: DEBUG
 # 追加
 linecorp:
-platform:
-channel:
-channelId: ${LINECORP_PLATFORM_CHANNEL_CHANNELID}
-channelSecret: ${LINECORP_PLATFORM_CHANNEL_CHANNELSECRET} 
-callbackUrl: ${LINECORP_PLATFORM_CHANNEL_CALLBACKURL}
+    platform:
+        channel:
+            channelId: ${LINECORP_PLATFORM_CHANNEL_CHANNELID}
+            channelSecret: ${LINECORP_PLATFORM_CHANNEL_CHANNELSECRET} 
+            callbackUrl: ${LINECORP_PLATFORM_CHANNEL_CALLBACKURL}
